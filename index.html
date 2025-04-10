@@ -608,7 +608,59 @@
     </div>
   </div>
 
-  <footer>© creado con mucho 💖</footer>
+  <footer>
+  © creado con mucho 💖
+  <div class="social-links">
+    <a href="https://twitter.com/susana_sis" target="_blank" class="social-icon twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://twitch.tv/susana_sis" target="_blank" class="social-icon twitch">
+      <i class="fab fa-twitch"></i>
+    </a>
+
+      <i class="fab fa-twitch"></i>
+    </a>
+  </div>
+</footer>
+
+<style>
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .social-icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  .twitter {
+    background: #1DA1F2;
+  }
+  
+  .twitch {
+    background: #9146FF;
+  }
+  
+  .social-icon i {
+    font-size: 1.3rem;
+  }
+</style>
+
 
   <script>
     function toggleMenu() {
